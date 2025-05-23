@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Быстрая доставка - грузоперевозки по всей России</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-truck"></i>
+                <span>Быстрая доставка</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="phone">
+                <i class="fas fa-phone"></i>
+                <span>8 (800) 123-45-67</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Профессиональные грузоперевозки по России</h1>
+            <p>Надежно, быстро и по доступным ценам</p>
+            <button class="btn" id="orderBtn">Оставить заявку</button>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-truck-moving"></i>
+                    <h3>Грузоперевозки по России</h3>
+                    <p>Доставка грузов любого объема и веса по всей территории России</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-boxes"></i>
+                    <h3>Международные перевозки</h3>
+                    <p>Организация доставки грузов в/из любой точки мира</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-warehouse"></i>
+                    <h3>Складские услуги</h3>
+                    <p>Ответственное хранение ваших грузов на наших складах</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Страхование грузов</h3>
+                    <p>Полная защита вашего груза на время транспортировки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>О нашей компании</h2>
+                <p>Компания "Быстрая доставка" работает на рынке грузоперевозок более 10 лет. За это время мы перевезли тысячи тонн грузов и заработали репутацию надежного партнера.</p>
+                <p>Наш автопарк включает более 50 единиц современной техники различной грузоподъемности. Все водители имеют большой опыт работы и регулярно проходят медицинские осмотры.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="2500">0</span>
+                        <span class="stat-text">Перевезенных грузов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-text">Единиц техники</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-text">Довольных клиентов</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://i.pinimg.com/736x/10/64/3d/10643d09d4d74d9236f03599935be57c.jpg" alt="Грузовик">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <p>"Очень доволен работой компании. Груз доставили вовремя, без повреждений. Буду обращаться еще!"</p>
+                    <div class="author">
+                        <strong>Иван Петров</strong>
+                        <span>ООО "Стройматериалы"</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Быстрая доставка - наш надежный партнер уже несколько лет. Всегда профессиональный подход и отличный сервис."</p>
+                    <div class="author">
+                        <strong>Елена Смирнова</strong>
+                        <span>ИП Смирнова</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Отправил крупную партию товара в другой город. Все прошло идеально, получил груз в целости и сохранности."</p>
+                    <div class="author">
+                        <strong>Алексей Козлов</strong>
+                        <span>Магазин "Технодом"</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacts">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Контакты</h2>
+                <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Транспортная, 15</p>
+                <p><i class="fas fa-phone"></i> 8 (800) 123-45-67</p>
+                <p><i class="fas fa-envelope"></i> info@fastdelivery.ru</p>
+                <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 18:00</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Оставьте заявку</h3>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Описание груза"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <i class="fas fa-truck"></i>
+                <span>Быстрая доставка</span>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2023 Быстрая доставка. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="orderModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Оставить заявку</h2>
+            <form id="modalForm">
+                <div class="form-group">
+                    <input type="text" id="modalName" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="modalPhone" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                    <select id="modalService">
+                        <option value="">Выберите услугу</option>
+                        <option value="russia">Грузоперевозки по России</option>
+                        <option value="international">Международные перевозки</option>
+                        <option value="storage">Складские услуги</option>
+                        <option value="insurance">Страхование грузов</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
